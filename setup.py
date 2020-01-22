@@ -9,9 +9,9 @@ setup(name='tap-sendgrid',
       url='http://singer.io',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_sendgrid'],
-      install_requires=['singer-python==5.0.4',
-                        'requests==2.20.0',
-                        'pendulum==1.2.0',
+      install_requires=['singer-python>=5.0.4',
+                        'requests>=2.20.0',
+                        'pendulum>=1.2.0',
                         ],
       entry_points='''
           [console_scripts]
